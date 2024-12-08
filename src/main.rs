@@ -6,4 +6,5 @@ fn main() {
     println!("Hello, world!");
     day01::day1("inputs/input-1.txt");
     day02::day2("inputs/input-2.txt");
+    day03::day3("inputs/input-3.txt");
 }

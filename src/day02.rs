@@ -66,6 +66,6 @@ pub(crate) fn day2(file_path: &str) {
             safe_lines2 += 1;
         }
     }
-    println!("Solution for day 2 part 1 {safe_lines1}");
+    println!("Solution for day 2 part 1: {safe_lines1}");
     println!("Solution for day 2 part 2: {safe_lines2}");
 }
