@@ -1,6 +1,8 @@
 mod day01;
 mod day02;
 mod day03;
+mod day04;
+
 
 fn main() {
     println!("Hello, world!");
@@ -9,5 +11,7 @@ fn main() {
     day02::day2("inputs/input-2.txt");
     println!("--------------------------------------");
     day03::day3("inputs/input-3.txt");
+    println!("--------------------------------------");
+    day04::day4("inputs/input-4.txt");
     println!("--------------------------------------");
 }
