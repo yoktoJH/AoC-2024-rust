@@ -2,7 +2,7 @@ mod day01;
 mod day02;
 mod day03;
 mod day04;
-
+mod day05;
 
 fn main() {
     println!("Hello, world!");
@@ -13,5 +13,7 @@ fn main() {
     day03::day3("inputs/input-3.txt");
     println!("--------------------------------------");
     day04::day4("inputs/input-4.txt");
+    println!("--------------------------------------");
+    day05::day5("inputs/input-5.txt");
     println!("--------------------------------------");
 }
