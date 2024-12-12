@@ -61,5 +61,5 @@ pub(crate) fn day5(file_path: &str) {
         }
     }
     println!("Solution for day 5 part 1: {middle_page_sum1}");
-    println!("Solution for day 4 part 2: {middle_page_sum2}");
+    println!("Solution for day 5 part 2: {middle_page_sum2}");
 }
