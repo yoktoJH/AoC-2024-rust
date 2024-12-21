@@ -4,6 +4,9 @@ mod day03;
 mod day04;
 mod day05;
 mod day06;
+mod day07;
+mod day08;
+mod day09;
 
 fn main() {
     println!("Hello, world!");
@@ -17,6 +20,14 @@ fn main() {
     println!("--------------------------------------");
     day05::day5("inputs/input-5.txt");
     println!("--------------------------------------");
-    day06::day6("inputs/input-6.txt");
+    day06::day6("inputs/example-6.txt");
     println!("--------------------------------------");
+    day07::day7("inputs/input-7.txt");
+    println!("--------------------------------------");
+    day08::day8("inputs/input-8.txt");
+    println!("--------------------------------------");
+    day09::day9("inputs/input-9.txt");
+    println!("--------------------------------------");
+
+
 }
